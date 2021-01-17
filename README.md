@@ -10,7 +10,7 @@
       gulp
     ```
     
-  4. должен запуститься сервер с таким response в терминал:
+  3. должен запуститься сервер с таким response в терминал:
 
     ```
     [10:33:04] Using gulpfile ~/Desktop/my folder/projects/vedomosti_pol/gulpfile.js
@@ -29,7 +29,7 @@
       [Browsersync] Serving files from: dist
       gulp.run() has been deprecated. Use task dependencies or gulp.watch task triggering instead.
     ```
-  3. Можете работать над проектом
+  4. Можете работать над проектом
 
 
 ## Структура сайта
