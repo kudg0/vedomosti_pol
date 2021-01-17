@@ -3,13 +3,15 @@
 
 
 ## How it work?
-  1. .Склонируйте репу к себе на копмупктер
+  1. Склонируйте репу к себе на копмупктер
   2. В склониной папке откройте терминал и выполните команды
-    - ``` npm i ```
-    - ``` gulp ```
+    - 
+    ``` 
+    npm i
+    gulp
+    ```
     - должен запуститься сервер с таким response в терминал:
     ```
-
     [10:33:04] Using gulpfile ~/Desktop/my folder/projects/vedomosti_pol/gulpfile.js
     [10:33:04] Starting 'server'...
     [10:33:04] Finished 'server' after 24 ms
