@@ -62,7 +62,7 @@ index.html состоит из компонентов, каждый компон
 
 
 
-##TODO list:
+## TODO list:
 
 - [x] Create TODO
 - [ ] Add tasks
