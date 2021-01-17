@@ -1,0 +1,46 @@
+@import "professor/professor.scss";
+
+@import "headOfDepartment/headOfDepartment.scss";
+
+@import "controllerCentr/controllerCentr.scss";
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1020px){
+  /* ОТКЛЮЧАЕМ ЭЛЕМЕНТЫ ДЛЯ МОБИЛКИ И ПЛАНШЕТА*/
+    .item_mob{
+      display: none !important;
+    }
+    .item_tablet{
+      display: none !important;
+    }
+  /* *OVER */
+}
+
+@media screen and (min-width: 650px) and (max-width: 1020px) {
+  /* ОТКЛЮЧАЕМ ЭЛЕМЕНТЫ ДЛЯ десктопа И ПЛАНШЕТА */
+    .item_desktop{
+      display: none !important;
+    }
+  /* *OVER */
+}
+
+
+@media screen and (max-width: 650px) {
+  /* ОТКЛЮЧАЕМ ЭЛЕМЕНТЫ ДЛЯ десктопа И ПЛАНШЕТА */
+    .item_desktop{
+      display: none !important;
+    }
+    .item_tablet{
+      display: none !important;
+    }
+  /* *OVER */
+}

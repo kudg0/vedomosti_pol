@@ -1,0 +1,55 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+  position: relative;
+}
+
+body, html{
+  padding: 0; margin: 0;
+}
+img, object, picture{
+  width: 100%; height: auto;
+}
+iframe{
+  width: 100%; height: auto;
+}
+
+ul, ol{
+  list-style: none;
+
+  margin: 0; padding: 0;
+
+  li{
+    margin: 0; padding: 0;
+  }
+}
+
+a{
+  color: inherit !important;
+}
+button:hover{
+  cursor: pointer !important;
+
+  opacity: 1;
+  transition: .5s;
+
+  box-shadow: 0 0 2vw rgba(255, 255, 255, .3);
+}
+button:active{
+  transform: scale(.99);
+  transition: .2s;
+}
+
+button:focus, a:focus{
+  outline: none;
+}
+
+input, textarea, select, a, a * { outline: none;}
+input:focus, textarea:focus, select:focus, a:focus { outline: none; }
+input:active, textarea:active, select:active, a:active { outline: none; }
+
+
+
