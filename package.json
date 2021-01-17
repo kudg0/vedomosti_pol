@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "",
   "author": "Ilya Brusenko (brusenkoilya@gmail.com)",
-  "repository": "ssh://git@git.cms-platform.tools:58022/lam-sp/new-brandings.git",
+  "repository": "git@github.com:kudg0/vedomosti_pol.git",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.9.3",
